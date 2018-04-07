@@ -14,28 +14,35 @@ header {
 
 header nav {
     flex: 1;
+    overflow: hidden;
 }
 
-header nal ul {
+header nav ul {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav li:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 header nav li {
     list-style-type: none;
     padding: 1rem;
+    color: white;
 }
 
 main {
     text-align: center;
     display: flex;
     justify-content: space-around;
-}
+    background-color: green;
 }
 
 .main1 {
     flex: 1;
-    
+
 }
 
 .main2 {
@@ -53,11 +60,36 @@ footer {
     background-color: black;
 }
 
+footer nav ul {
+    display: flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    font-size: .75em;
+    padding: 1em;
+}
+
 .logo {
     width: 4rem;
 }
+
 .pics {
     background-size: 100%
+}
+
+#big {
+    width: 100%
+}
+
+#facebook {
+    width: 2rem;
+    border-radius: 25%
+}
+
+#bc {
+    width: 2rem;
+    border-radius: 25%;
 }
 
 
